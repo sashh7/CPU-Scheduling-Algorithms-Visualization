@@ -1,0 +1,155 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0) 30%,
+    rgb(5, 0, 81) 55.7%,
+    rgb(1, 11, 88) 81.8%
+  );
+}
+* {
+  margin: 0;
+  margin-top: -1%;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  height: 115vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  background: transparent !important;
+}
+body {
+  color: white;
+}
+
+.card,
+#time_quanta,
+#start_btn,
+#drop_btn,
+#vis_btn {
+  color: white;
+}
+
+#time_quanta {
+  background-image: linear-gradient(
+    to left,
+    rgb(5, 0, 81) 55.7%,
+    rgb(5, 0, 81) 55.7%
+  );
+}
+.process-table {
+  color: white; /* Set default font color to white */
+}
+
+.gantt-box {
+  position: relative;
+  border: 3px solid #ffffff;
+  height: 5px;
+  padding: 50px;
+  text-align: center;
+}
+
+.gantt-box-left {
+  position: absolute;
+  left: 0;
+  margin-left: 3px;
+  bottom: 0;
+}
+
+.gantt-box-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 3px;
+}
+
+#time_quanta {
+  width: auto;
+  background-color: navy;
+}
+
+#start_btn {
+  background-color: navy;
+  /* transition: opacity 0.15s ease-in-out, color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  color: rgb(205, 222, 237); */
+}
+
+#drop_btn {
+  background-color: navy;
+  /* transition: opacity 0.15s ease-in-out, color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  color: rgb(205, 222, 237); */
+}
+
+#vis_btn {
+  background-color: navy;
+  /* transition: opacity 0.15s ease-in-out, color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+  color: rgb(187, 187, 187); */
+}
+
+.cpu {
+  background: url("../images/cpu.png") no-repeat;
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+}
+
+.readyqueue {
+  background: url("../images/fast-time.png") no-repeat;
+  background-size: contain;
+  height: 120px;
+  width: 120px;
+}
+
+/* .completedqueue
+{
+	background: url('../images/checked.png') no-repeat;
+	background-size: contain;
+	margin: 20px 0 20px 0px;
+	height: 100px;
+	width: 100px;
+} */
+.fitem {
+  display: flex;
+  /* border: 2px solid #73AD21; */
+  width: 120px;
+  height: 120px;
+  /* margin: 20px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.flexible {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  z-index: 5;
+}
+
+@media only screen and (max-width: 600px) {
+  .triangle {
+    border-width: 0 65px 50px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .triangle {
+    border-width: 0 80px 80px 0;
+  }
+}
